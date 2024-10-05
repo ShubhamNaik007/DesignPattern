@@ -1,0 +1,10 @@
+package com.design_patterns.AbstractFactoryPattern.TraineeService.impl;
+
+import com.design_patterns.FactoryPattern.services.Profession;
+
+public class Engineer implements Profession {
+    @Override
+    public void print() {
+        System.out.println("Professional Engineer called");
+    }
+}
